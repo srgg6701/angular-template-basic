@@ -1,0 +1,60 @@
+/* line 1, ../../../scss/tags.scss */
+a {
+  cursor: pointer;
+}
+/* line 3, ../../../scss/tags.scss */
+#nav a {
+  padding: 0 10px;
+}
+
+/* line 8, ../../../scss/tags.scss */
+body {
+  background-color: white;
+  font-size: 18px;
+}
+/* line 9, ../../../scss/tags.scss */
+body * {
+  box-sizing: border-box;
+}
+/* line 13, ../../../scss/tags.scss */
+body > *:not(:nth-child(1)) {
+  display: none;
+}
+
+/* line 19, ../../../scss/tags.scss */
+footer {
+  background-color: #666;
+  height: 60px;
+}
+
+/* line 23, ../../../scss/tags.scss */
+h1, h2, h3, h4, h5 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 26, ../../../scss/tags.scss */
+main {
+  padding-top: 10px;
+}
+
+/* line 29, ../../../scss/tags.scss */
+menu {
+  margin: auto;
+}
+/* line 31, ../../../scss/tags.scss */
+menu li {
+  display: table-cell;
+}
+/* line 33, ../../../scss/tags.scss */
+menu li:not(:last-child) a {
+  border-right: solid 1px #999;
+}
+
+/* line 38, ../../../scss/tags.scss */
+nav {
+  box-shadow: 0 -10px 10px #eee inset;
+  height: 40px;
+  margin: auto -25px !important;
+  padding: 0 10px;
+  padding-bottom: 30px;
+}

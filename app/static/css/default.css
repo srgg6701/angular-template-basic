@@ -1,0 +1,132 @@
+/* default sass file */
+/* line 1, ../../../scss/layout.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../../../scss/tags.scss */
+a {
+  cursor: pointer;
+}
+/* line 3, ../../../scss/tags.scss */
+#nav a {
+  padding: 0 10px;
+}
+
+/* line 8, ../../../scss/tags.scss */
+body {
+  background-color: white;
+  font-size: 18px;
+}
+/* line 9, ../../../scss/tags.scss */
+body * {
+  box-sizing: border-box;
+}
+/* line 13, ../../../scss/tags.scss */
+body > *:not(:nth-child(1)) {
+  display: none;
+}
+
+/* line 19, ../../../scss/tags.scss */
+footer {
+  background-color: #666;
+  height: 60px;
+}
+
+/* line 23, ../../../scss/tags.scss */
+h1, h2, h3, h4, h5 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 26, ../../../scss/tags.scss */
+main {
+  padding-top: 10px;
+}
+
+/* line 29, ../../../scss/tags.scss */
+menu {
+  margin: auto;
+}
+/* line 31, ../../../scss/tags.scss */
+menu li {
+  display: table-cell;
+}
+/* line 33, ../../../scss/tags.scss */
+menu li:not(:last-child) a {
+  border-right: solid 1px #999;
+}
+
+/* line 38, ../../../scss/tags.scss */
+nav {
+  box-shadow: 0 -10px 10px #eee inset;
+  height: 40px;
+  margin: auto -25px !important;
+  padding: 0 10px;
+  padding-bottom: 30px;
+}
+
+/* line 1, ../../../scss/classes.scss */
+.flex {
+  display: flex;
+  padding: 10px;
+}
+
+/* line 5, ../../../scss/classes.scss */
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+
+/* line 8, ../../../scss/classes.scss */
+.bg-lightskyblue {
+  background-color: lightskyblue;
+}
+
+/* line 11, ../../../scss/classes.scss */
+.bg-lightyellow {
+  background-color: lightyellow;
+}
+
+/* line 15, ../../../scss/classes.scss */
+.pad > div {
+  margin: auto 10px;
+}
+
+/* line 9, ../../../scss/default.scss */
+#container {
+  height: 100%;
+}
+
+/* line 12, ../../../scss/default.scss */
+#footer, #main {
+  margin: auto;
+  width: 90%;
+}
+
+/* line 16, ../../../scss/default.scss */
+#footer {
+  background-color: #D9E3FF;
+  border-radius: 8px;
+  box-shadow: 0 -4px 20px #999 inset;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+}
+
+/* line 23, ../../../scss/default.scss */
+#main {
+  box-shadow: 0 0 4em #ccc;
+  margin-bottom: -60px;
+  min-height: 100%;
+  padding: 10px 25px;
+  padding-bottom: 60px;
+}
+
+/* line 30, ../../../scss/default.scss */
+#nav, #logo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

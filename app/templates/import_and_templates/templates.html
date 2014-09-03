@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        caption{
+            background-color: lightcyan;
+            white-space: nowrap;
+        }
+        col:nth-child(1){
+            background-color: #eaebec;
+        }
+        col:nth-child(2){
+            background-color: #dadbdc;
+        }
+        col:nth-child(3){
+            background-color: #cacbcc;
+        }
+        table{
+            border: solid 2px #ccc;
+        }
+        thead{
+            background-color: lavender;
+        }
+    </style>
+</head>
+<body>
+<h2 id="header">Temp, yeah...</h2>
+<table>
+    <colgroup>
+        <col/>
+        <col/>
+        <col/>
+    </colgroup>
+    <caption>Table caption</caption>
+    <thead>
+        <tr>
+            <td colspan="3">Thead comes here</td>
+        </tr>
+    </thead>
+    <tr>
+        <td>first cell</td>
+        <td>second one</td>
+        <td>last but not least</td>
+    </tr>
+    <template id="mytablerow">
+        <tr>
+            <td class="record"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </template>
+</table>
+</body>
+</html>
